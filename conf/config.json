@@ -1,0 +1,52 @@
+{
+  "url": "https://api.github.com/repositories/6427813/issues",
+  "headers": {},
+  "filters": {
+    "textFilters": [
+      {
+        "name": "labels",
+        "placeholder": "bug,ui,@high",
+        "default": ""
+      }
+    ],
+    "listFilters": [
+      {
+        "name": "filter",
+        "options": [
+          "assigned",
+          "created",
+          "mentioned",
+          "subscribed",
+          "all"
+        ],
+        "default": "assigned"
+      },
+      {
+        "name": "state",
+        "options": [
+          "open",
+          "closed",
+          "all"
+        ],
+        "default": "open"
+      },
+      {
+        "name": "sort",
+        "options": [
+          "created",
+          "updated",
+          "comments"
+        ],
+        "default": "created"
+      },
+      {
+        "name": "direction",
+        "options": [
+          "asc",
+          "desc"
+        ],
+        "default": "desc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+.border {
+
+    border: 1px solid black;
+}
+
+.container {
+    
+        padding-top: 10px;
+}
+
+.hide-panel {
+
+    display: none;
+    transition: display 1s;
+
+}
+
+.show-panel {
+    
+    display: block;
+    transition: display 1s;
+    
+}
+
+img {
+    border-radius: 50%;
+}
+
+.equal {
+    width:  50px;
+    height: 150px;
+}
+
+.equal-header {
+    font-size: 2em;
+    font-style: bold;
+}
+
+.row {
+    background: lightgrey;
+    border: 1px solid grey;
+}
+
+.button-padding-top {
+    padding-top: 15px;
+}
